@@ -133,8 +133,7 @@ section ul {
 
 /* image styling within galleries */
 .gallery img {
-    width: 48%;
-    height: auto;
+    size-adjust: 30%;
 }
 
 /* biography section link styling */
@@ -160,9 +159,13 @@ section ul {
 .gallery {
     display: flex;
     flex-wrap: wrap;
-    gap: 10px; /* adjust gap between images */
+    gap: 5px; /* adjust gap between images */
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: space-evenly;
 }
 .gallery img {
-    width: calc(50% - 10px); /* adjust image width and gap */
-    height: auto;
+    width: calc(30%); /* adjust image width and gap */
+    height: calc(30%);
 }
