@@ -166,6 +166,6 @@ section ul {
     justify-content: space-evenly;
 }
 .gallery img {
-    width: calc(30%); /* adjust image width and gap */
+    width: calc(30%); /*   adjust image width and gap */
     height: calc(30%);
 }
